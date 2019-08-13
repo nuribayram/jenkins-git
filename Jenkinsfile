@@ -7,6 +7,12 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
+                sh '''
+                    echo "bla bla new list
+                '''
+                sh '''
+                    ls
+                '''
             }
         }
     }
